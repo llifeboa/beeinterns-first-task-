@@ -1,0 +1,125 @@
+$base-color: #fff;
+$second-color: #d8d8d8;
+$third-color: #000;
+$article-p-h: #1C1E20;
+$article-a: #787878;
+
+html{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1rem 2.5rem;
+}
+
+.logo{
+    height: 2.9rem;
+    width: 2.9rem;
+    background-color: $second-color;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+}
+
+.navbar__item{
+    display: block;
+    background-color: $second-color;
+    height: 1.5rem;
+    width: 9rem;
+    margin: 0 0 0 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+}
+
+.container_gray{
+    background-color: $second-color;
+}
+
+.banner{
+    margin: 5rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.banner__header{
+    font-size: 3em;
+    margin: 0;
+    font-weight: normal;
+}
+
+.banner__p{
+    font-size: 2em;
+    margin: 0 0 1.5rem 0;
+}
+
+.button{
+    font-size: 1.5rem;
+    appearance: none;
+    border: none;
+    box-sizing: border-box;
+    padding: 1rem 4rem;
+    font-weight: normal;
+    font-family: inherit;
+    &_white{
+        color: $third-color;
+        background-color: $base-color;
+    }
+    &_black{
+        color: $base-color;
+        background-color: $third-color;
+    }
+}
+
+.article-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.article{
+    margin: 5rem 0 5rem 2rem;
+}
+
+.article-list > article:first-child > .article{
+    margin-left: 0;
+}
+.article__image{
+    background-color: $second-color;
+    height: 13.5rem;
+}
+
+.article__header{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: $article-p-h;
+    margin: 1.5rem 0 1rem 0;
+}
+
+.article__p{
+    color: $article-p-h;
+    margin: 0 0 2rem 0;
+}
+
+.article__a{
+    color: $article-a;
+}

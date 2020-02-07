@@ -1,0 +1,29 @@
+html {
+  font-family: 'Abel', sans-serif;
+  font-size: 18px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1.5rem 2.5rem; }
+
+.logo {
+  height: 2.7rem;
+  width: 2.7rem;
+  background-color: #d8d8d8;
+  border-radius: 50%; }
+
+.navbar {
+  display: flex; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
