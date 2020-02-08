@@ -154,7 +154,6 @@ body{
 	left: -100%;
 	transform: rotate(35deg);
 	animation: 5s flare infinite;
-	filter: blur(10);
 
 }
 
@@ -174,6 +173,9 @@ body{
 	color: $article-a;
 	&:hover{
 		color:#fff800;
+		position: relative;
+		paint-order: stroke fill;
+		-webkit-text-stroke: 10px black;
 	}
 }
 
