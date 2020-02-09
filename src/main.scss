@@ -4,13 +4,16 @@
 @import "scss/button.scss";
 
 //Blocks
+
 @import "scss/blocks/header.scss";
 @import "scss/blocks/banner.scss";
 @import "scss/blocks/article_row.scss";
 @import "scss/blocks/sign_up.scss";
 @import "scss/blocks/article_column.scss";
+@import "scss/blocks/footer.scss";
 
 //Global
+
 html{
 	font-family: 'Abel', sans-serif;
 	font-size: 18px;

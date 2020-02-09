@@ -45,10 +45,12 @@
 
 .article-column-item_reverse{
     flex-direction: row-reverse;
+
     & .article-column-item__text-wrapper{
         align-items: flex-start;
         padding: 0 0 0 3rem;
     }
+    
     & .article-column-item__p{
         text-align: left;
     }
