@@ -8,7 +8,9 @@
 @import "scss/blocks/banner.scss";
 @import "scss/blocks/article_row.scss";
 @import "scss/blocks/sign_up.scss";
+@import "scss/blocks/article_column.scss";
 
+//Global
 html{
 	font-family: 'Abel', sans-serif;
 	font-size: 18px;
@@ -21,6 +23,7 @@ body{
 
 .container{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding: 0rem 5rem;

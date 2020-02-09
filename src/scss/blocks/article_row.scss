@@ -30,9 +30,6 @@
 .article-row-item__a{
 	color: $article-a;
 	&:hover{
-		color:#fff800;
-		position: relative;
-		paint-order: stroke fill;
-		-webkit-text-stroke: 8px black;
+		color: $third-color;
 	}
 }

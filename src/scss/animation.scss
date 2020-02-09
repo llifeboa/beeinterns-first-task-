@@ -7,12 +7,12 @@
 	content: "";
 	background: #fff;
 	display: block;
-	opacity: 0.2;
-	height: 1000px;
+	opacity: 0.1;
+	height: 200%;
 	width: 10%;
 	position: absolute;
 	transform-origin: center center;
-	top: -500px;
+	bottom: -30%;
 	transform: rotate(35deg);
 	animation: 3s flare infinite;
 }

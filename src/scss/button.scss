@@ -9,11 +9,11 @@
 	font-family: inherit;
 
 	&_black:hover{
-		color:#fff800;
+		color:$yellow;
 	}
 
 	&_white:hover{
-		background-color: #fff800;
+		background-color: $yellow;
 	}
 
 	&_white{
