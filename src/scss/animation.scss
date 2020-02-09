@@ -1,0 +1,27 @@
+.animation-flare{
+    overflow: hidden;
+    position: relative;
+}
+
+.animation-flare:after{
+	content: "";
+	background: #fff;
+	display: block;
+	opacity: 0.2;
+	height: 1000px;
+	width: 10%;
+	position: absolute;
+	transform-origin: center center;
+	top: -500px;
+	transform: rotate(35deg);
+	animation: 3s flare infinite;
+}
+
+@keyframes flare{
+	0%{
+		left: -50%;
+	}
+	100%{
+		left: 150%;
+	}
+}

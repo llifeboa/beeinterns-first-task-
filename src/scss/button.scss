@@ -1,0 +1,28 @@
+.button{
+	font-size: 1.5rem;
+	appearance: none;
+	border: none;
+	box-sizing: border-box;
+	padding: 0.7rem 4rem;
+	margin: 0;
+	font-weight: normal;
+	font-family: inherit;
+
+	&_black:hover{
+		color:#fff800;
+	}
+
+	&_white:hover{
+		background-color: #fff800;
+	}
+
+	&_white{
+		color: $third-color;
+		background-color: $base-color;
+	}
+	
+	&_black{
+		color: $base-color;
+		background-color: $third-color;
+	}
+}
