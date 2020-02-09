@@ -5,37 +5,3 @@
 	box-sizing: border-box;
 	padding: 0 2.5rem;
 }
-
-.logo{
-	height: 2.9rem;
-	width: 2.9rem;
-	background-color: $second-color;
-	border-radius: 50%;
-	&_white{
-		background-color: $base-color;
-	}
-}
-
-.navbar{
-	display: flex;
-	list-style: none;
-	padding: 0;
-	margin: 1.5rem 0;
-	& .navbar__item:first-child{
-		margin: 0;
-	}
-}
-
-.navbar_white{
-	& > .navbar__item{
-		background-color: $base-color;
-	}
-}
-
-.navbar__item{
-	display: block;
-	background-color: $second-color;
-	height: 1.5rem;
-	width: 8.5rem;
-	margin: 0 0 0 2.2rem;
-}

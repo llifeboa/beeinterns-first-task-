@@ -1,10 +1,14 @@
 @import "scss/support.scss";
 @import "scss/var.scss";
 @import "scss/animation.scss";
-@import "scss/button.scss";
+
+//Components
+@import "scss/components/logo.scss";
+@import "scss/components/navigation.scss";
+@import "scss/components/button.scss";
+
 
 //Blocks
-
 @import "scss/blocks/header.scss";
 @import "scss/blocks/banner.scss";
 @import "scss/blocks/article_row.scss";

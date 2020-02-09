@@ -27,3 +27,11 @@
 .social-list__item{
     margin: 0 0 0 2.5rem;
 }
+
+.social-list__image{
+    transition: 0.5s;
+}
+
+.social-list__item:hover > .social-list__image{
+    transform: scale(1.2);
+} 

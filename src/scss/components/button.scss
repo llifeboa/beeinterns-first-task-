@@ -7,7 +7,7 @@
 	margin: 0;
 	font-weight: normal;
 	font-family: inherit;
-
+	transition: transform 0.5s;
 	&_black:hover{
 		color: $yellow;
 	}
@@ -25,4 +25,8 @@
 		color: $base-color;
 		background-color: $third-color;
 	}
+}
+
+.button:active{
+	transform: scale(0.9);
 }
