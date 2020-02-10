@@ -8,6 +8,7 @@
 	font-weight: normal;
 	font-family: inherit;
 	transition: transform 0.5s;
+	cursor: pointer;
 	&_black:hover{
 		color: $yellow;
 	}
@@ -28,5 +29,5 @@
 }
 
 .button:active{
-	transform: scale(0.9);
+	transform: scale(0.95);
 }

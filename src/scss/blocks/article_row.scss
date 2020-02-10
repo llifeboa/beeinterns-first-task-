@@ -29,6 +29,7 @@
 
 .article-row-item__a{
 	color: $article-a;
+	cursor: pointer;
 	&:hover{
 		color: $third-color;
 	}

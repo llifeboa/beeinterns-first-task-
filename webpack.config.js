@@ -44,11 +44,5 @@ module.exports = {
 		new CopyPlugin([
 			{ from: 'src/assets', to: './static' },
 		  ]),
-	 ],
-	 devServer: {
-		contentBase: "./dist",
-		hot: true,
-		inline: true,
-		port: 8080
-	  }
+	 ]
 };
